@@ -10,3 +10,9 @@ This flashes the tweets returned by scaling the font size based on the number of
 This uses the image from the computer's camera and displays the image using the text from all the tweets appended together. It does this in real time and displays it to the user.
 ## Publish Tab
 This tab shows the user's twitter feed and allows them to publish a new tweet using the controls at the top of the page.
+## Running Instructions
+You will need to install Processing and add Twitter4J as a library. You will then need to get aPi keys for your twitter account and replace the following keys in PTwitter.pde with the appropriate values:
+* CONSUMER_KEY
+* CONSUMER_SECRET
+* AUTH_ACCESS_TOKEN
+* ACCESS_TOKEN_SECRET
